@@ -8,3 +8,11 @@ spring:
 caelum:
   system:
     url: http://localhost
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - health
+          - info
+          - refresh
