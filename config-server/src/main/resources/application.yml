@@ -8,5 +8,14 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/fwfurtado/micro-8744/tree/master/config-files
-          search-paths: config-files
+          uri: https://github.com/fwfurtado/micro-8744/
+          repos:
+            prod:
+              pattern:
+                - "*/prod"
+              search-paths: config-files/prod
+            qa:
+              pattern:
+                - "*/qa"
+              search-paths: config-files/qa
+

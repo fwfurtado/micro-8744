@@ -1,4 +1,3 @@
----
 spring:
   profiles: prod
 server:
@@ -7,11 +6,3 @@ server:
 caelum:
   system:
     url: http://caelum.com.br
-
----
-spring:
-  profiles: qa
-
-caelum:
-  system:
-    url: http://caelum.qa.com.br

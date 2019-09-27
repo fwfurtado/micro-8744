@@ -1,0 +1,6 @@
+spring:
+  profiles: qa
+
+caelum:
+  system:
+    url: http://caelum.qa.com.br
