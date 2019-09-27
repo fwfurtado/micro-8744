@@ -1,0 +1,9 @@
+---
+spring:
+  profiles: prod
+server:
+  port: 0
+
+---
+spring:
+  profiles: qa
