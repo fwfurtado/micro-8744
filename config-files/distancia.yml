@@ -4,6 +4,14 @@ spring:
 server:
   port: 0
 
+caelum:
+  system:
+    url: http://caelum.com.br
+
 ---
 spring:
   profiles: qa
+
+caelum:
+  system:
+    url: http://caelum.qa.com.br

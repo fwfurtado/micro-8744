@@ -4,3 +4,7 @@ server:
 spring:
   application:
     name: distancia
+
+caelum:
+  system:
+    url: http://localhost

@@ -3,9 +3,10 @@ server:
 
 spring:
   profiles:
-    active: native
+    active: git
   cloud:
     config:
       server:
-        native:
-          search-locations: classpath:/config-files
+        git:
+          uri: https://github.com/fwfurtado/micro-8744/tree/master/config-files
+          search-paths: config-files
