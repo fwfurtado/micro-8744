@@ -3,4 +3,4 @@ spring:
 
 caelum:
   system:
-    url: http://caelum.qa.com.br
+    url: http://qa.caelum.com.br
