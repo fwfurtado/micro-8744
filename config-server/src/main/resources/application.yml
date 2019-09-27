@@ -3,22 +3,10 @@ server:
 
 spring:
   profiles:
-    active: git
+    active: vault
   cloud:
     config:
       server:
-        git:
-          uri: https://github.com/fwfurtado/micro-8744/
-          search-paths: config-files
-          repos:
-            prod:
-              pattern:
-                - "*/prod"
-              uri: ${spring.cloud.config.server.git.uri}
-              search-paths: config-files/prod
-            qa:
-              pattern:
-                - "*/qa"
-              uri: ${spring.cloud.config.server.git.uri}
-              search-paths: config-files/qa
+        vault:
+          kv-version: 2
 
