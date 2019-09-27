@@ -1,0 +1,3 @@
+nginx:
+  proxy:
+    pass: http://musicdot.com.br
